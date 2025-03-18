@@ -15,4 +15,4 @@ class  Endereco():
         self.estado = estado
 
     def __str__(self):
-        return self.logradouro + ', ' + str(self.numero) + ' - ' + self.bairro + ' - ' + self.cidade + ' - ' + self.estado  
+        return self.logradouro + ', ' + str(self.num) + ' - ' + self.bairro + ' - ' + self.cidade + ' - ' + self.estado  
